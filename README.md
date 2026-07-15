@@ -1,4 +1,4 @@
-# health care  — Online doctor appointments
+# health Bridge  — Online doctor appointments
 
 **A full-stack web app where patients book visits, doctors manage schedules and prescriptions, and admins oversee the system — all in one place.**
 
