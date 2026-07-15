@@ -1,8 +1,7 @@
-# DoctorOnCall — Online doctor appointments
+# health care  — Online doctor appointments
 
 **A full-stack web app where patients book visits, doctors manage schedules and prescriptions, and admins oversee the system — all in one place.**
 
-[![Watch on YouTube](https://img.shields.io/badge/Watch_on-YouTube-red?logo=youtube)](https://youtu.be/L6cgb7I-Ap4)
 [![Live demo — Netlify](https://img.shields.io/badge/Live_demo-Netlify-00C7B7?logo=netlify)](https://dental-doctor-ujjal.netlify.app/)
 
 ---
@@ -73,14 +72,9 @@ Doctor-Appointment/          ← React app (run from here with npm start)
 
 ## Setup guide (step by step)
 
-### 1. Clone the repository
 
-```bash
-git clone https://github.com/Ujjalzaman/Doctor-Appointment.git
-cd Doctor-Appointment
-```
 
-### 2. Create the database on Supabase
+### 1. Create the database on Supabase
 
 1. Go to [supabase.com](https://supabase.com/) and sign in.
 2. **New project** → choose organization, name, region, and a strong database password.
@@ -96,7 +90,7 @@ cd Doctor-Appointment
 
 > **Tip:** Keep this URL secret — it is the key to your database.
 
-### 3. Configure the backend (`api/.env`)
+### 2. Configure the backend (`api/.env`)
 
 ```bash
 cd api
@@ -142,7 +136,7 @@ npm run dev
 
 Leave this terminal running. The API should listen on the port you set (e.g. **5050**).
 
-### 4. Configure the frontend (root `.env`)
+### 3. Configure the frontend (root `.env`)
 
 In the **project root** (not inside `api/`), create or edit **`.env`**:
 
@@ -162,13 +156,13 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000).
 
-### 5. Admin login (important)
+### 4. Admin login (important)
 
 - Normal users sign up as **patient** or **doctor** from the app.
 - **Admin** users are **not** created from the sign-up form. You add them in the **`Auth`** table in the database with `role = admin` (and a hashed password consistent with how your app stores passwords), or use your own seed script.
 - For a **safe demo** for employers or clients, set **`isDemo = true`** on an admin row. That account can **browse** everything but **cannot** create, update, or delete data through the API.
 
-### 6. Common issues
+### 5. Common issues
 
 | Problem | What to try |
 |---------|-------------|
@@ -203,10 +197,9 @@ Older setup steps are also shown in this video (database provider may differ; **
 
 ## Author & contact
 
-**Ujjal Zaman**
+**Naina garg**
 
-- **Website / portfolio:** [ujjalzaman.com](https://ujjalzaman.com/)  
-- **Email:** [ujjalzaman@gmail.com](mailto:ujjalzaman@gmail.com)
+- **Email:** [nainagarg110606@gmail.com]
 
 Have a product idea, a similar project, or want to collaborate? Reach out via the website or email — I’m happy to hear from you.
 
