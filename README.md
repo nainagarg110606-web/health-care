@@ -201,7 +201,6 @@ Older setup steps are also shown in this video (database provider may differ; **
 
 - **Email:** [nainagarg110606@gmail.com]
 
-Have a product idea, a similar project, or want to collaborate? Reach out via the website or email — I’m happy to hear from you.
 
 ---
 
